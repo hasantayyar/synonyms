@@ -2,7 +2,7 @@
 
 namespace Hasantayyar\Synonyms;
 
-use Yangqi\Htmldom;
+use Yangqi\Htmldom\Htmldom as Htmldom;
 
 /**
  *  
@@ -23,7 +23,7 @@ class Synonyms {
 
     public function getThesaurus() {
         $this->url = 'http://thesaurus.com/browse/' . $this->word;
-        $html = new Htmldom($this->$url);
+        $html = new Htmldom($this->url);
         $listDiv = $html->find('.relevancy-list', 0);
         for ($i = 0; $i <= 5; ++$i) {
             echo "\n\nLEVEL " . $i . "\n";
