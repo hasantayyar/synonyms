@@ -1,7 +1,9 @@
 <?php
 
 namespace Hasantayyar\Synonyms;
+
 use Yangqi\Htmldom;
+
 /**
  *  
  *
@@ -35,6 +37,10 @@ class Synonyms {
                 }
             }
         }
+    }
+
+    public function getGoogleSuggestions() {
+        $this->url = '' . $this->word;
     }
 
 }
