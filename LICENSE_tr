@@ -1,0 +1,63 @@
+GNU KISITLI GENEL KAMU LİSANSI
+
+Sürüm 3, 29 Haziran 2007
+
+Copyright © 2007 Özgür Yazılım Vakfı <http://fsf.org/>
+
+Bu lisans belgesinin tam kopyasının herkes tarafından koplayalanması ve dağıtımı serbest olup, değiştirilmesi yasaktır.
+
+GNU Kısıtlı Genel Kamu Lisansı’nın işbu sürümü, aşağıdaki listede yer alan ek izinlerle eksiklikleri giderilerek GNU Genel Kamu Lisansı’nın 3′üncü sürümünün hüküm ve koşullarını kapsamaktadır.
+
+0. Ek Tanımlamalar.
+
+Burada kullanıldığı gibi “işbu lisans”, GNU Kısıtlı Genel Kamu Lisansı’nın 3′üncü sürümünü, “GNU GKL” de GNU Genel Kamu Lisansı’nın 3′üncü sürümünü kasteder.
+“Kütüphane” işbu lisansla kapsama alınmış, aşağıda tanımlandığı gibi bir uygulama veya birleştirilmiş çalışma dışındaki çalışmaları kasteder.
+Bir “uygulama” kütüphane tarafından sağlanan arayüzün kullandığı her türlü çalışma olup, kütüphaneye başka türlü dayanmayan çalışmadır. Kütüphane tarafından tanımlanan bir sınıfın altsınıfını tanımlamak, kütüphane tarafından sağlanan bir arayüzü kullanma şekli olarak varsayılır.
+“Birleştirilmiş çalışma”, bir uygulamanın kütüphaneyle birleşmesi ya da bağlanmasıyla ortaya çıkan çalışmadır. Birleştirilmiş çalışmayla yapılan belirli bir kütüphane sürümüne aynı zamanda “bağlanmış sürüm” adı verilir.
+Birleştirilmiş çalışma için “En Küçük İlgili Kaynak”, diğer durumlardan ayrı olarak düşünüldüğünde uygulamaya dayalı olmayan ve bağlanmış sürüm olmayan birleştirilmiş çalışmanın parçaları için herhangi bir kanak kod hariç, birleştirilmiş çalışma için ilgili kaynak demektir.
+Birleştirilmiş çalışma için “İlgili Uygulama Kodu”, uygulamadan yeniden birleştirilmiş çalışma elde etmek için gerekli her tür veri ve yardımcı programı içeren fakat birleştirilmiş çalışmanın sistem kütüphanelerini içermeyen, uygulama için nesne kodu ve/veya kaynak kod demektir.
+
+1. GNU GKL’nin 3′üncü Bölümü İçin Özel Durum.
+
+GNU GKL’nin 3′üncü bölümüne bağlı olmaksızın işbu lisansın 3′üncü ve 4′üncü bölümleri uyarınca korunmuş bir çalışmayı taşıyabilirsiniz.
+
+2. Değiştirilmiş Sürümleri Taşımak.
+
+Eğer bir kütüphaneyi değiştirdiyseniz, ve yaptığınız değişiklikte bir hizmet, bu hizmeti kullanan (hizmet çalıştırıldığında bir argüman olarak kullanması haricinde) bir uygulama tarafından sağlanan bir fonksiyona veya veriye dayanıyorsa, değiştirilmiş sürümün bir kopyasını taşıyabilirsiniz, ancak:
+
+a) İşbu lisans uyarınca, uygulamanın böyle bir fonksiyon ya da tablo sağlamadığı durumlarda fonksiyonun hala çalışır durumda olması ve amacını gerçekleştirme doğrultusundaki kısımların işlemesi konusundasamimiyetle çaba harcamanız koşuluyla; veya,
+b) GNU GKL altında, işbu lisansın ek izinlerinin hiçbiri bahsi geçen kopyaya uygulanmıyorsa.
+3. Kütüphane Başlık Dosyalarından Gelen Materyallerle Birleşen Nesne Kodu.
+Bir uygulamadan gelen nesne kodu kütüphanenin bir parçası olan başlık dosyasından gelen materyalle birleşebilir. Eğer birleştirilmiş materyal sayısal değişkenler, veri yapısı tasarımları ve erişimciler, küçük makrolar ve küçük (on satır ya da daha az) satır içi fonksiyonlarıyla sınırlandırılmamışsa, aşağıdaki iki maddeyi yerine getirmeniz koşuluyla bu gibi bir nesne kodunu istediğiniz koşullar altında taşıyabilirsiniz:
+
+ * Kütüphane tarafından kullanılan ve kullanımı işbu lisans kapsamında olan nesne kodunun herbir kopyasıyla birlikte göze çarpan bir uyarı verin.
+ * Nesne kodunun yanına GNU GKL’nin ve işbu lisans belgesinin birer kopyasını iliştirin.
+
+4. Birleştirilmiş Çalışmalar.
+Birleştirilmiş çalışmanın içinde yer alan kütüphanenin parçalarını değiştirmeyi etkili bir şekilde kısıtlamadığı ve bu tür değişiklikler üzerinde tersine mühendislik ve hata ayıklama işlemlerini kısıtlmadığı sürece, birleştirilmiş çalışmayı, aşağıdaki maddelerin herbirini yerine getirdiğiniz takdirde istediğiniz koşullar altında taşıyabilirsiniz:
+
+ * Kütüphane tarafından kullanılan ve kullanımı işbu lisans kapsamında olan birleştirilmiş çalışmanın herbir kopyasıyla birlikte göze çarpan bir uyarı verin.
+
+ * Birleştirilmiş çalışmanın yanına GNU GKL’nin ve işbu lisans belgesinin birer kopyasını iliştirin.
+ * Çalıştığı süre boyunca telif hakkı uyarısı gösteren birleştirilmiş çalışmalar için, kullanıcıyı GNU GKL ve işbu lisans belgesinin birer kopyasına yönlendiren bir referansla birlikte, bahsi geçen uyarıların yanına kütüphane için de bir telif hakkı uyarısı iliştirin.
+
+ * Aşağıdakilerin birini yapın:
+    
+    0. En küçük ilgili kaynağı işbu lisansın hükümleri uyarınca, ve ilgili uygulama kodunu, izin verilen koşullar altında, kullanıcıya değiştirilen birleşmiş çalışmayı üretmek için bağlanmış sürümün değiştirilmiş sürümüyle uygulamayı yeniden birleştirmesi ya da yeniden bağlaması için en uygun biçimde, GNU GKL’nin ilgili kaynağı taşımaya ilişkin 6′ncı bölümünde belirtildiği gibi taşıyın.
+    1. Kütüphaneyle birleştirmek için uygun bir paylaşılmış kütüphane düzeneği kullanın. Uygun kütüphane düzeneği 1) kullanım esnasında kullanıcının kendi bilgisayar sisteminde var olan kütüphane kopyasını kullanan, ve 2) bağlanmış sürümle arayüz uyumlu olan değiştirilmiş kütüphane sürümüyle düzgün çalışacak düzenektir.
+
+ * Yalnızca, aksi halde GNU GPL’nin 6′ncı bölümü altında böyle bir bilgi vermeniz gerekecekse, ve böyle bir bilgi uygulamanın değiştirilen bağlanmış sürümle yeniden birleştirilmesi veya bağlanmasıyla ortaya çıkan bağlanmış çalışmanın değiştirilmiş sürümünü kurmak ve çalıştırmak için gerekliyse, kurulum bilgisi sağlayın. (Eğer 4d0 seçeneğini kullandıysanız, kurulum bilgisi en küçük ilgili kaynağı ve ilgili uygulama kodunu da içermelidir. Eğer 4d1 seçeneğini kullandıysanız, GNU GKL’nin ilgili kaynağı taşımaya ilişkin 6′ncı bölümünde belirtildiği şekilde kurulum bilgisini sağlamalısınız.)
+
+5. Birleştirilmiş Kütüphaneler
+
+Kütüphaneye dayalı bir iş olarak kütüphane hizmetlerini, uygulama olmayan ve işbu lisans kapsamında bulunmayan diğer kütüphane hizmetleriyle birlikte tek bir kütüphaneye yan yana koyabilir; aşağıdaki iki maddeyi gerçekleştirdiğiniz takdirde istediğiniz koşullar altında bu gibi birleştirilmiş kütüphaneleri taşıyabilirsiniz:
+
+ * Birleştirilmiş kütüphaneyi diğer kütüphane hizmetleriyle birleştirilmemiş, işu lisans koşulları altında bulunan, kütüphaneye dayalı aynı çalışmanın bir kopyasıyla birlikte bulundurun.
+ * Birleştirilmiş kütüphaneyle birlikte, bu kütüphanenin bir kısmının kütüphaneye dayalı bir çalışma olduğuna ilişkin ve aynı çalışmanın birleştirilmemiş halini nereden bulacaklarını açıklayan göze çarpan bir uyarı verin.
+ 
+6. GNU Kısıtlı Genel Kamu Lisansı’nın Değiştirilmiş Sürümleri.
+
+Özgür Yazılım Vakfı, GNU Kısıtlı Genel Kamu Lisansı’nın değiştirilmiş ve/veya yeni sürümlerini zaman zaman yayımlayabilir. Bu gibi yeni sürümler, halihazırdaki sürümle aynı ruhu taşımakta olup, yeni sorun ve endişeler konusunda ayrıntılandırılması bakımından farklılık gösterebilir.
+Her sürüme ayırt edici bir sürüm numarası verilir. Eğer kütüphane sizin aldığınız haliyle GNU Kısıtlı Genel Kamu Lisansı’nın bazı numaralı sürümlerinin ya da “daha sonraki herhangi bir sürümünün” ona uygulandığını belirtiyorsa, yayımlanan o sürümün ya da Özgür Yazılım Vakfı tarafından yayınlanan daha sonraki bir sürümün hükümlerini ve koşullarını kabul etme seçeneğiniz mevcuttur. Eğer kütüphane sizin aldığınız haliyle GNU Kısıtlı Genel Kamu Lisansı’nın bir sürüm numarasını belirtmiyorsa, Özgür Yazılım Vakfı tarafından yayımlanan GNU Kısıtlı Genel Kamu Lisansı sürümlerinden herhangi birini seçebilirsiniz.
+
+Eğer kütüphane sizin aldığınız haliyle ileride hangi GNU Kısıtlı Genel Kamu Lisansının uygulanacağını bir vekilin belirleyebileceğini belirtiyorsa, bu vekilin bir sürümü kabul ettiğinin resmi beyanatı, sizi kütüphane için o sürümü seçmeye kalıcı şekilde yetkilendirir.

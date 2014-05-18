@@ -1,0 +1,23 @@
+{
+    "name": "hasantayyar/synonyms",
+    "type": "library",
+    "description": "Get synonyms of a word",
+    "keywords": ["laravel", "words", "synonym"],
+    "license": "LGPL",
+    "authors": [
+        {
+            "name": "htayyar",
+            "email": "tayyar.besik@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "yangqi/htmldom" : "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "Hasantayyar\\Synonyms": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
