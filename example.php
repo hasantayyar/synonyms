@@ -5,4 +5,7 @@ namespace Hasantayyar\Synonyms;
 include __DIR__.'/vendor/autoload.php';
 
 $syn = new Synonyms('test');
-$syn->printThesaurus();
+
+$thesaurusData = $syn->getThesaurus();
+$bighugelabsData = $syn->getBighugelabs();
+
