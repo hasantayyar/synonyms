@@ -16,10 +16,28 @@ class Synonyms {
 
     private $url;
     private $word;
+    private $words;
     public $suggestions = array();
 
     public function __construct($word) {
         $this->word = $word;
+    }
+
+    public function getWords() {
+        return $this->words;
+    }
+
+    public function getFormatted() {
+        if (!is_array($this->words)) {
+            return FALSE;
+        }
+        $formattedString = '';
+        foreach ($this->words as $level) {
+            foreach ($level['data'] as $item) {
+                $formattedString.= $item['word'] . "\n";
+            }
+        }
+        return $formattedString;
     }
 
     /**
@@ -28,19 +46,22 @@ class Synonyms {
     public function getThesaurus($word = NULL) {
         $word = !$word ? $this->word : $word;
         $service = new Services\Thesaurus();
-        return $service->getWords($word);
+        $this->words = $service->getWords($word);
+        return $this;
     }
 
     public function getBighugelabs($word = NULL) {
         $word = !$word ? $this->word : $word;
         $service = new Services\Bighugelabs();
-        return $service->getWords($word);
+        $this->words = $service->getWords($word);
+        return $this;
     }
 
     public function getTurkishSynonyms($word = NULL) {
         $word = !$word ? $this->word : $word;
         $service = new Services\TurkishSynonyms();
-        return $service->getWords($word);
+        $this->words = $service->getWords($word);
+        return $this;
     }
 
     public function getWordnik($word = NULL) {
