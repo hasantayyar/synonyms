@@ -1,10 +1,10 @@
-#Synonyms
+# Synonyms
 =========
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/hasantayyar/synonyms/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/hasantayyar/synonyms/?branch=master)
 
 Warning : This package is still under development. 
 
-###Features
+### Features
 
 get synonyms or related words from
 - thesaurus.com
@@ -13,7 +13,7 @@ get synonyms or related words from
 - Wordnik
 - and more
 
-###INSTALL
+### INSTALL
 
 add this to your composer.json require block
 
